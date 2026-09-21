@@ -52,6 +52,9 @@ main {
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
 }
+.card:hover {
+    border-color: #ff1493;
+}
 
 .card h2 {
     color: #d94f83;

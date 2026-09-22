@@ -38,6 +38,7 @@ nav a {
 
 nav a:hover {
     color: #a83261;
+    border-bottom: 2px solid #a83261;
 }
 
 main {
@@ -56,6 +57,7 @@ main {
 .card:hover {
     border-color: #ff1493;
 }
+
 
 .card h2 {
     color: #d94f83;

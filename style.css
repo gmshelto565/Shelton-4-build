@@ -38,8 +38,6 @@ nav a {
 
 nav a:hover {
     color: #a83261;
-        border: 3px solid #ff1493;
-
 }
 
 main {
@@ -54,6 +52,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
 }
+
 .card:hover {
     border-color: #ff1493;
 }
@@ -81,7 +80,23 @@ footer {
     text-align: center;
 }
 
-/* Larger screens */
+/* First breakpoint */
+
+@media (min-width: 600px) {
+    main {
+        padding: 30px;
+    }
+
+    nav {
+        gap: 25px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+}
+
+/* Second breakpoint */
 
 @media (min-width: 768px) {
     main {

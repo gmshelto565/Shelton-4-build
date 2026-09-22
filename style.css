@@ -80,7 +80,6 @@ footer {
     text-align: center;
 }
 
-/* First breakpoint */
 
 @media (min-width: 600px) {
     main {
@@ -96,7 +95,6 @@ footer {
     }
 }
 
-/* Second breakpoint */
 
 @media (min-width: 768px) {
     main {
